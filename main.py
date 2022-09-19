@@ -16,6 +16,7 @@ class MApp(App):
         self.mpHands = mp.solutions.hands
         self.hands = self.mpHands.Hands()
         self.mpDraw = mp.solutions.drawing_utils
+        print('start')
 
     def build(self):
         layout = BoxLayout(orientation='vertical')
